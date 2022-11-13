@@ -1,0 +1,135 @@
+
+header{
+   width: 100%;
+}
+
+body {
+    margin : 0;
+    padding: 0;
+    background-color: bisque;
+}
+.en_tete{
+    background-color: white;
+    display: flex;    
+    height: 70px;
+    align-items: center;
+}
+.red{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.blue{
+    
+    background-color: royalblue;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 26px;
+    padding: 98px;
+    color: white;
+}
+#visage{
+    display: flex;
+    width: 700px;
+    height: 772px;  
+}
+.conteneur{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+.conteneur img {
+    width: 100px;
+    height: 100px;
+}
+.white{
+    background-color: white;
+    padding: 24px;    
+    margin: 20px;
+    width: 100%;
+    border-radius: 24px;
+}
+section.yellow{
+    background-color: darkorange;
+    height: 550px;
+
+}
+footer.black{
+    background-color: brown;    
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.puces{
+    list-style: none;
+}
+ul.puces a{
+    text-decoration: none;
+}
+footer{
+    list-style: none;
+}
+.black-fonce{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    
+}
+.puce1{
+    list-style: none;
+}
+ul.puce1 a{
+    text-decoration: none;
+}
+.titres h1{
+    text-align: center;
+    color: darkblue;
+}
+main{
+    color: darkblue;
+}
+button {
+    border-radius: 25px;
+    border: 0;
+    background-color: orange;
+    font-weight: bolder;
+    padding: 10px 46px;
+    color: white;
+}
+footer.black ul{
+    list-style: none;
+}
+aside{
+    display: flex;
+    justify-content: space-evenly;
+}
+aside.video iframe{
+    height: 415px;
+}
+.titres p{
+    display: flex;
+    justify-content: center;
+}
